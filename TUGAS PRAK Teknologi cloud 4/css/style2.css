@@ -1,0 +1,117 @@
+header , section , footer , aside , nav , article , figure , figcaption {
+    display : block;
+    }
+        body {
+         color : #666666;
+         background-color : #79afde;
+        
+         background-position : center;
+         font-family : Georgia , Times , serif;
+         line-height: 1.4em;
+         margin: 0px;
+         }
+         .wrapper {
+         width: 1000px;
+         margin: 20px auto 20px auto;
+         border: 2px solid #000000;
+         background-color: rgb(110, 192, 247);
+         }
+         
+         h1 {
+         text-indent: -9999px;
+         width: 940px;
+         height: 100px;
+         margin: 0px;
+         }
+         nav,footer {
+            clear: both;
+            color: #d8f2f7;
+            background-color: #898080;
+            height: 40px;
+        
+            }
+            
+        nav ul{
+        margin : 0px;
+        padding: 5px 0px 5px 30px;
+        }
+        nav li {
+        display: inline;
+        margin-right: 40px;
+        }
+        nav li a{
+        color: rgb(110, 192, 247);
+        }
+        nav li a:hover, nav li a.current {
+        color: #000000;
+        }
+        section.utama {
+        float: left;
+        width: 700px;
+        border-right: 2px solid #978686;
+        
+        }
+        
+        article {
+        clear: both;
+        overflow: auto;
+        width: 100%;
+        }
+        hgroup {
+        margin-top: 40px;
+        }
+        
+        figure {
+        float: left;
+        width: 300px;
+        height: 300px;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid #ffffff;
+        }
+        
+        figcaption {
+        font-size: 90%;
+        text-align: left;
+        }
+        
+        aside{
+        width: 250px;
+        height: 100%;
+        float: left;
+        padding: 0px 0px 0px 20px;
+        
+        }
+        
+        aside section a {
+        display: block;
+        padding: 20px;
+        border-bottom: 1px #f5faf5;
+        border-style: solid;
+        }
+        
+        aside section a:hover {
+        color: #a48b8b;
+        background-color: #ffffff;
+        }
+        
+        a{
+        color: #f3eaea;
+        text-decoration: none;
+        }
+        h1,h2,h3 {
+        font-weight: normal;
+        }
+        h2{
+        margin: 10px 0px 5px 0px;
+        padding: 0px;
+        }
+        aside h2{
+        padding: px 0px 10px 0px;
+        font-size: 20px;
+        color: #ffffff;
+        }
+        footer{
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;
+        }
